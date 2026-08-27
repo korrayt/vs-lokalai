@@ -1,0 +1,35 @@
+﻿# Node & dependencies
+node_modules/
+dist/
+build/
+.cache/
+.temp/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Large media & binaries (>50MB)
+*.mov
+*.mp4
+*.mkv
+*.avi
+*.exe
+*.zip
+*.tar.gz
+*.7z
+*.prproj
+*.cfa
+*.pek
+* - Kopya*
+* - Copy*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

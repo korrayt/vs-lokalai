@@ -1,0 +1,30 @@
+{
+  "projectId": "35-vs-lokalai",
+  "folderName": "35_VS_LokalAI",
+  "analyzedAt": "2026-08-17T18:06:28.390Z",
+  "plannerPromptUsed": "team/.agents/planner.xml",
+  "technologies": [
+    "İçerik / Genel Proje"
+  ],
+  "roadmap": [
+    "1. Proje yapısının ve bağımlılıklarının tespiti (Tamamlandı)",
+    "2. planner.xml ile 8 boyutlu stratejik fizibilite raporunun çıkarılması (Tamamlandı)",
+    "3. team/ altındaki uygun agent ve skillerin projeye atanması",
+    "4. 02_checkpoints aşamasına geçiş için kullanıcı onayına sunulması",
+    "5. İlk çalışır versiyon üretildiğinde 03_active aşamasına geçilmesi"
+  ],
+  "assignedAgents": [
+    "corepack.agent.json",
+    "orchestrator-planner.agent.json"
+  ],
+  "assignedSkills": [
+    "skills-main.zip",
+    "grander-core-v3.zip"
+  ],
+  "assignedModels": [
+    ".ollama",
+    "blobs",
+    "manifests",
+    ".gemma"
+  ]
+}
